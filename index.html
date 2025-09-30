@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Navigation Page</title>
+    <link rel="icon" type="image/png" href="ADHalo-250px.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img id="mainLogo" src="ancs-logo-blacktext.png" alt="Advanced Network & Computer Services" class="main-logo">
+                </div>
+                <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Quick Links Section -->
+            <section class="quick-links">
+                <h2>Quick Links</h2>
+                <div class="quick-links-grid">
+                    <a href="https://hcm.paycor.com/portal/" target="_blank" class="quick-link-card">
+                        <div class="quick-link-logo-container">
+                            <img src="https://assets.stickpng.com/images/629e11d7974c5f2c1ceaa5ff.png" alt="Paycor Logo" class="quick-link-logo" onerror="this.style.display='none'">
+                        </div>
+                        <span class="quick-link-text">Paycor</span>
+                    </a>
+                    <a href="https://m365.cloud.microsoft/" target="_blank" class="quick-link-card">
+                        <div class="quick-link-logo-container">
+                            <img src="https://images.squarespace-cdn.com/content/v1/6372ab786c0882214db6e07c/f6f6ee22-be86-4901-8f11-bced6915dc4b/Copilot+for+Microsfot+Teams+Colorful.png" alt="Office 365 Logo" class="quick-link-logo" onerror="this.style.display='none'">
+                        </div>
+                        <span class="quick-link-text">Office 365</span>
+                    </a>
+                    <a href="https://advncs-team.monday.com/overviews/33391818" target="_blank" class="quick-link-card">
+                        <div class="quick-link-logo-container">
+                            <img src="https://assets.stickpng.com/images/62a0b639c8796a42e0a62cc0.png" alt="Monday.com Logo" class="quick-link-logo" onerror="this.style.display='none'">
+                        </div>
+                        <span class="quick-link-text">Monday.com</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Job Roles Section -->
+            <section class="job-roles">
+                <h2>Job Role</h2>
+                <div class="job-roles-grid">
+                    <!-- Service & Support -->
+                    <div class="job-role-card">
+                        <button class="job-role-header" data-role="service-support">
+                            <div class="header-left">
+                                <span class="role-icon">🩵️</span>
+                                <span class="role-title">Service & Support</span>
+                            </div>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        <div class="job-role-content" id="service-support">
+                            <ul class="role-items">
+                                <li>Service & Support Workspace</li>
+                                <li>Autotask PSA</li>
+                                <li>IT Glue</li>
+                            </ul>
+                            <div class="subsection">
+                                <h4 class="subsection-title">Project Management</h4>
+                                <ul class="role-items">
+                                    <li>Project Management Workspace</li>
+                                </ul>
+                            </div>
+                            <div class="subsection">
+                                <h4 class="subsection-title">Help Desk</h4>
+                                <ul class="role-items">
+                                    <li>Help Desk Workspace</li>
+                                    <li>Datto RMM</li>
+                                </ul>
+                            </div>
+                            <div class="subsection">
+                                <h4 class="subsection-title">Engineering</h4>
+                                <ul class="role-items">
+                                    <li>Engineering Workspace</li>
+                                </ul>
+                            </div>
+                            <div class="subsection">
+                                <h4 class="subsection-title">Network Operations Center</h4>
+                                <ul class="role-items">
+                                    <li>PRTG</li>
+                                    <li>Cisco AMP</li>
+                                    <li>Cisco Umbrella</li>
+                                    <li>Datto Unified Continuity</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Administration -->
+                    <div class="job-role-card">
+                        <button class="job-role-header" data-role="administration">
+                            <div class="header-left">
+                                <span class="role-icon">🏦️</span>
+                                <span class="role-title">Administration</span>
+                            </div>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        <div class="job-role-content" id="administration">
+                            <ul class="role-items">
+                                <li>Administration Workspace</li>
+                            </ul>
+                            <div class="subsection">
+                                <h4 class="subsection-title">Finance</h4>
+                                <ul class="role-items">
+                                    <li>Finance Workspace</li>
+                                    <li>Paycor</li>
+                                </ul>
+                            </div>
+                            <div class="subsection">
+                                <h4 class="subsection-title">Maintenance</h4>
+                                <ul class="role-items">
+                                    <li>Maintenance Workspace</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Media -->
+                    <div class="job-role-card">
+                        <button class="job-role-header" data-role="media">
+                            <div class="header-left">
+                                <span class="role-icon">📷️</span>
+                                <span class="role-title">Media</span>
+                            </div>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        <div class="job-role-content" id="media">
+                            <ul class="role-items">
+                                <li>Media Workspace</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Executive -->
+                    <div class="job-role-card">
+                        <button class="job-role-header" data-role="executive">
+                            <div class="header-left">
+                                <span class="role-icon">👑</span>
+                                <span class="role-title">Executive</span>
+                            </div>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        <div class="job-role-content" id="executive">
+                            <ul class="role-items">
+                                <li>Executive Workspace</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Development -->
+                    <div class="job-role-card">
+                        <button class="job-role-header" data-role="development">
+                            <div class="header-left">
+                                <span class="role-icon">💻</span>
+                                <span class="role-title">Development</span>
+                            </div>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        <div class="job-role-content" id="development">
+                            <ul class="role-items">
+                                <li>Development Workspace</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
